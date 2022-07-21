@@ -22,12 +22,30 @@ export function Home() {
     "open"
   );
   const [orders, setOrders] = useState<OrderProps[]>([
-    // {
-    //   id: "123",
-    //   patrimony: "1231231",
-    //   when: "20/04/2022 às 10h",
-    //   status: "open",
-    // },
+    {
+      id: "123",
+      patrimony: "1231231",
+      when: "20/04/2022 às 10h",
+      status: "open",
+    },
+    {
+      id: "123",
+      patrimony: "1231231",
+      when: "20/04/2022 às 10h",
+      status: "open",
+    },
+    {
+      id: "123",
+      patrimony: "1231231",
+      when: "20/04/2022 às 10h",
+      status: "open",
+    },
+    {
+      id: "123",
+      patrimony: "1231231",
+      when: "20/04/2022 às 10h",
+      status: "open",
+    },
   ]);
 
   const { colors } = useTheme();
