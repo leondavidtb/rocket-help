@@ -1,17 +1,17 @@
 import {
+  Box,
+  Circle,
   HStack,
   Text,
-  Box,
   useTheme,
   VStack,
-  Circle,
   Pressable,
   IPressableProps,
 } from "native-base";
 import {
-  CircleWavyCheck,
   ClockAfternoon,
   Hourglass,
+  CircleWavyCheck,
 } from "phosphor-react-native";
 import React from "react";
 
@@ -28,6 +28,7 @@ type Props = IPressableProps & {
 
 export function Order({ data, ...rest }: Props) {
   const { colors } = useTheme();
+
   const statusColor =
     data.status === "open" ? colors.secondary[700] : colors.green[300];
 
@@ -47,7 +48,6 @@ export function Order({ data, ...rest }: Props) {
           <Text color="white" fontSize="md">
             Patrimônio {data.patrimony}
           </Text>
-
           <HStack alignItems="center">
             <ClockAfternoon size={15} color={colors.gray[300]} />
             <Text color="gray.200" fontSize="xs" ml={1}>
@@ -55,6 +55,7 @@ export function Order({ data, ...rest }: Props) {
             </Text>
           </HStack>
         </VStack>
+
         <Circle bg="gray.500" h={12} w={12} mr={5}>
           {data.status === "closed" ? (
             <CircleWavyCheck size={24} color={statusColor} />
