@@ -12,7 +12,7 @@ IT ticket opening application for companies developed during Rocketseat's Ignite
   <img src="/src/assets/new.png" width="256px"/> 
 </div>
 
-## Techs utilizadas
+## Tecnologias e bibliotecas utilizadas
 
 - React Native
 - Native Base
