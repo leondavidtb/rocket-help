@@ -4,12 +4,12 @@ IT ticket opening application for companies developed during Rocketseat's Ignite
 ## Screenshots
 
 <div style="display: grid">
-  <img src="/src/assets/login.png" width="456px"/> 
-  <img src="/src/assets/in-progress.png" width="456px"/> 
-  <img src="/src/assets/closed.png" width="456px"/> 
-  <img src="/src/assets/in-progress-details.png" width="456px"/> 
-  <img src="/src/assets/closed-details.png" width="456px"/> 
-  <img src="/src/assets/new.png" width="456px"/> 
+  <img src="/src/assets/login.png" width="256px"/> 
+  <img src="/src/assets/in-progress.png" width="256px"/> 
+  <img src="/src/assets/closed.png" width="256px"/> 
+  <img src="/src/assets/in-progress-details.png" width="256px"/> 
+  <img src="/src/assets/closed-details.png" width="256px"/> 
+  <img src="/src/assets/new.png" width="256px"/> 
 </div>
 
 ## Techs utilizadas
